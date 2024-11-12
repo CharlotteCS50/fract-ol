@@ -6,7 +6,7 @@
 #    By: cschnath <cschnath@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/11 22:50:44 by cschnath          #+#    #+#              #
-#    Updated: 2024/10/11 22:50:47 by cschnath         ###   ########.fr        #
+#    Updated: 2024/11/12 13:40:38 by cschnath         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -49,6 +49,8 @@ SRC_NAMES = ft_isalpha.c \
 	ft_putstr_fd.c \
 	ft_putendl_fd.c \
 	ft_putnbr_fd.c \
+	ft_printf.c \
+	ft_printf_utils.c \
 
 OBJS = $(SRC_NAMES:.c=.o)
 

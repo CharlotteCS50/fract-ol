@@ -6,7 +6,7 @@
 /*   By: cschnath <cschnath@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 22:50:37 by cschnath          #+#    #+#             */
-/*   Updated: 2024/10/11 22:58:08 by cschnath         ###   ########.fr       */
+/*   Updated: 2024/11/12 13:40:16 by cschnath         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,5 +77,18 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *));
 void	ft_lstclear(t_list **lst, void (*del)(void *));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+
+// Printf
+int					ft_putnbr(int n);
+int					ft_putchar(char c);
+int					ft_strlen_printf(const char *s);
+int					ft_putstr(char *s);
+int					ft_count(unsigned int ui, unsigned int base);
+int					ft_putnbr_hex(unsigned long long n, unsigned int base,
+						char *basestr);
+int					ft_putpointer(unsigned long long hello);
+int					ft_putudec(unsigned int i);
+int					find_conversion(char c, va_list args);
+int					ft_printf(const char *str, ...);
 
 #endif
