@@ -6,7 +6,7 @@
 #    By: cschnath <cschnath@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/11 22:50:44 by cschnath          #+#    #+#              #
-#    Updated: 2024/11/12 13:40:38 by cschnath         ###   ########.fr        #
+#    Updated: 2024/11/12 16:10:58 by cschnath         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -70,7 +70,6 @@ all: $(NAME)
 
 $(NAME): $(OBJS)
 	ar -rcs $(NAME) $(OBJS)
-	ranlib $(NAME)
 
 %.o : %.c
 	$(CC) -c $(CFLAGS) $< -o $@
