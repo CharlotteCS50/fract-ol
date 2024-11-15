@@ -1,6 +1,7 @@
-NAME    = fractol
+NAME    = ls
+
 CFLAGS  = -Wall -Wextra -Werror
-SRC		= main.c parser.c calculate_mandelbrot.c
+SRC		= main.c map_to_real.c calculate_mandelbrot.c main.c
 OBJ		= ${SRC:.c=.o}
 LIBFT = libft/libft.a
 MLX = MLX42/libmlx42.a

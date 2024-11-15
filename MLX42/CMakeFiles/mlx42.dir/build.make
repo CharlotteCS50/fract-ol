@@ -71,11 +71,11 @@ include CMakeFiles/mlx42.dir/flags.make
 
 mlx_vert_shader.c: shaders/default.vert
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cschnath/Projects/fract-ol/MLX42/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building vertex shader"
-	tools/compile_shader.sh /home/cschnath/Projects/fract-ol/MLX42/shaders/default.vert > mlx_vert_shader.c
+	tools/compile_shader.sh /home/cschnath/Projects/fract-ol/MLX42/shaders/default.vert 0 > /home/cschnath/Projects/fract-ol/MLX42/mlx_vert_shader.c
 
 mlx_frag_shader.c: shaders/default.frag
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cschnath/Projects/fract-ol/MLX42/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building fragment shader"
-	tools/compile_shader.sh /home/cschnath/Projects/fract-ol/MLX42/shaders/default.frag > mlx_frag_shader.c
+	tools/compile_shader.sh /home/cschnath/Projects/fract-ol/MLX42/shaders/default.frag 0 > /home/cschnath/Projects/fract-ol/MLX42/mlx_frag_shader.c
 
 CMakeFiles/mlx42.dir/src/mlx_cursor.c.o: CMakeFiles/mlx42.dir/flags.make
 CMakeFiles/mlx42.dir/src/mlx_cursor.c.o: src/mlx_cursor.c

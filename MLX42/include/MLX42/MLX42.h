@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   MLX42.h                                            :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: cschnath <cschnath@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/12/28 02:29:06 by W2Wizard          #+#    #+#             */
-/*   Updated: 2024/11/12 13:25:02 by cschnath         ###   ########.fr       */
+/*                                                        ::::::::            */
+/*   MLX42.h                                            :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: W2Wizard <main@w2wizard.dev>                 +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2021/12/28 02:29:06 by W2Wizard      #+#    #+#                 */
+/*   Updated: 2023/03/30 16:23:19 by ntamayo-      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -794,7 +794,9 @@ mlx_texture_t* mlx_load_png(const char* path);
  * 
  * @param[in] path The file path to the XPM texture.
  * @returns The XPM texture struct containing its information.
- */# include <stdlib.h>
+ */
+xpm_t* mlx_load_xpm42(const char* path);
+
 /**
  * Deletes a texture by freeing its allocated data.
  * 
